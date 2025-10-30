@@ -98,6 +98,3 @@ Research Assistant, RA Task 8 (LLM Narrative Validation)
 | Phase 3    | Python-based claim validation           |
 | Phase 4    | Qualitative bias analysis (ongoing)     |
 
----
-
-## File Structure
