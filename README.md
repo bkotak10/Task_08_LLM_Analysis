@@ -49,12 +49,27 @@ Each LLM prompt is followed by Python code to validate whether the narrative ali
 - Looks at players below 40% of median minutes.
 - Ranks by high contribution per 90.
 
+### Prompt 5,6:
+**"What went wrong this season and what can be improved next season?"**
+
+- Uses match-level outcomes, goal difference, and xG vs. actual goals to diagnose underperformance.
+- Focuses on tactical gaps (e.g., late game fatigue, defensive lapses) and training recommendations.
+- Suggests how tactical rotations and training loads can be adjusted next season.
+
+
+### Prompt 7,8:
+**"Who do you think can lead the team?"**
+
+- Focuses on players with high consistency, communication roles (e.g., midfielders), and passing accuracy.
+- Assesses leadership potential based on playing style, influence, and visibility.
+
+
 ---
 
 ## Python Tools Used
 
 - Pandas: data cleaning and manipulation
-- Matplotlib/Seaborn (optional): for visualizing player performance
+- Matplotlib/Seaborn : for visualizing player performance
 - TextBlob/VADER (optional): for analyzing tone in LLM outputs
 - Scipy.stats (planned): for statistical testing (e.g., t-tests)
 
